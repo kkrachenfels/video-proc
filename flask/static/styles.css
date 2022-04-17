@@ -1,0 +1,49 @@
+* {
+    text-align: center;
+    background-color: black;
+    font-family: 'Courier New', monospace; 
+}
+
+
+.hi {
+    color: white;
+    font-size: 36px;
+}
+
+.download {
+    color: white;
+    text-aling: center;
+    font-size: 24px;
+}
+
+input[type=submit] {
+    padding:15px 15px; 
+    background:lightcyan; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    font-size: 18px;
+}
+input[type=file] {
+    padding:14px 15px; 
+    background:lightcyan; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.disclaimer{
+    font-size: 16px;
+    color: white;
+}
+
+.push {
+    background-color: lightcyan;
+}
+.intro {
+    color: white;
+    font-size: 18px;
+}

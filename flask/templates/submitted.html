@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <link rel="stylesheet" href="static/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <img src="" width="200" style="display:none;" />
+</head>
+<body class="body">
+    <p class = "hi"> File submitted! </p> 
+
+    <p><a href="{{ url_for('download_file', filename=filename) }}" class="download">Download Modified File</a></p>
+
+    <p><a href="{{ url_for('display_file') }}" class="download">Upload another file</a></p>
+    
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="/static/styles.css" />
+    <link rel="stylesheet" href="/static/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <img src="" width="200" style="display:none;" />
+</head>
+<body class="body">
+    <p class = "intro"> This website will be used to provide those sensitive to light </p> 
+    <p class = "intro">an opportunity to view video files and 
+      not have to worry about potentially being harmed.</p></body>
+    </p>
+    <p class="hi">Click on the "Choose File" button to upload a file:</p>
+    <form>
+  <input 
+  value = "Upload your mp4 file!" 
+  type="file" 
+  id="readUrl"
+  accept="video/mp4,video/x-m4v,video/*" 
+   class = "push"
+   name="filename">
+</form>
+<script>
+  document.getElementById('readUrl').addEventListener('change', function() {
+    if (this.files[0] ) {
+      var picture = new FileReader();
+      picture.readAsDataURL(this.files[0]);
+      picture.addEventListener('load', function(event) {
+        alert(event.target.result);
+      });
+    }
+  });
+    </script>
+</body>
+</html>
