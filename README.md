@@ -28,3 +28,6 @@ A lot of work needs to be done trying a lot of different models with a lot of di
 -Sourcing a larger dataset  
 -Using neural networks  
 -Improving the user experience  
+
+## Demo of current progress:
+[![Flash Detection Video](http://img.youtube.com/vi/bHZZutex_A0/0.jpg)](http://www.youtube.com/watch?v=bHZZutex_A0 "Anomaly/Flash Detection Over Time Series")
